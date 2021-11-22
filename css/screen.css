@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@200&display=swap");
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -12,21 +12,21 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 /*
   Modular Scale: https://www.modularscale.com/?22&px&1.2
-  Accent Color: #e0cd5c;
+
 */
 
 /* Base Styles */
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 
 }
 
-body {
+html {
 
-  font-family: 'Montagu Slab', serif;
+  font-family: "Montagu Slab", serif;
   background-color: black;
   color: white;
   line-height: 1.6;
@@ -44,8 +44,7 @@ a {
 }
 
 h1,
-h2,
- {
+h2, {
   font-weight: 300;
   line-height: 1.2;
   margin: 1.5em;
@@ -74,8 +73,9 @@ img {
   text-align: center;
   background-color: white;
   color: red;
-  margin: ;
-  padding: ;
+  margin: auto;
+  padding: auto;
+
 }
 
 
@@ -97,11 +97,12 @@ h3 {
   font-weight: bold;
   font-size: 2.64em;
   line-height: 4.2em;
-  padding-bottom: .35em;
+  padding-bottom: 0.35em;
   margin-bottom: 2.35em;
   border-bottom: solid;
-  border-width: .1em;
+  border-width: 0.1em;
   border-color: red;
+
 }
 
 h4 {
@@ -115,9 +116,7 @@ h4 {
   font-size: 1.6504em;
 }
 
-#update-footer {
-  padding-bottom: 0;
-}
+
 
 #site-info {
   display: flex;
